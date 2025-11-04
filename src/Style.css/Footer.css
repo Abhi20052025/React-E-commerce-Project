@@ -1,0 +1,48 @@
+.footer{
+    padding-top: 80px;
+}
+.footer h5{
+    color: lightblue;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.footer p{
+    margin-bottom: 3px;
+    font-size: 1rem;
+}
+.footer .calling{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color:yellow;
+}
+.footer ul li{
+    display: inline-block;
+    margin-right:20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.footer .copy_right{
+    border-top:1px solid lightgrey;
+    margin-top: 60px;
+    padding: 20px 0;
+}
+.footer .copy_right ul li span{
+        color: lightgreen;
+        font-weight: 600;
+}
+.footer .copy_right ul li{
+    font-size: 1rem;
+    padding: 0 10px;
+    position: relative;
+}
+.footer .copy_right ul li:after{
+    content:"";
+    padding-left:11px;
+    position: absolute;
+    top:-1px;
+    right: -10px;
+}
+.footer .copy_right ul li:last-child::after{
+        display: none;
+        
+}

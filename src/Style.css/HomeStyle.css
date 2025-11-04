@@ -1,0 +1,51 @@
+/* Home Hero 1.0 */
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --lilita-font: 'Lilita One', cursive;
+}
+
+.hero_section {
+  position: relative;
+  background-color: red;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 170px;
+  padding-bottom: 90px;
+
+  /* ✅ Add bottom shadow */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero text */
+.hero_section .hero_text h1 {
+  font-family: var(--lilita-font);
+  font-size: 7rem;
+  line-height: 1;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+
+  /* ✅ Optional text shadow for contrast */
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Burger image */
+.burger-image {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+
+  /* ✅ Optional image shadow */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .hero_section .hero_text h1 {
+    font-size: 4rem;
+  }
+
+  .burger-image {
+    max-width: 100%;
+  }
+}

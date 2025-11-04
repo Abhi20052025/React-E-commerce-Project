@@ -1,0 +1,141 @@
+.blog_section {
+  padding: 60px 0;
+  background-color: #f4f4f4;
+}
+
+.testimonial_item {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.testimonial_item:hover {
+  transform: translateY(-5px);
+}
+
+.user_img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.testimonial_item p {
+  font-size: 1rem;
+  color: #444;
+  font-style: italic;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.item_rating i {
+  color: #ffc107; /* gold stars */
+  font-size: 1.1rem;
+}
+
+.testimonial_item h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+/* ========== Responsive Design ========== */
+
+/* Smartphones (up to 576px) */
+@media (max-width: 576px) {
+  .testimonial_item {
+    padding: 20px 10px;
+  }
+
+  .user_img img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .testimonial_item p {
+    font-size: 0.95rem;
+  }
+
+  .testimonial_item h5 {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (576px - 767px) */
+@media (min-width: 577px) and (max-width: 767px) {
+  .testimonial_item {
+    padding: 25px 15px;
+  }
+
+  .user_img img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .testimonial_item p {
+    font-size: 1rem;
+  }
+
+  .testimonial_item h5 {
+    font-size: 1rem;
+  }
+}
+
+/* Medium Devices (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial_item {
+    padding: 30px 20px;
+  }
+
+  .user_img img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .testimonial_item p {
+    font-size: 1.05rem;
+  }
+
+  .testimonial_item h5 {
+    font-size: 1.05rem;
+  }
+}
+
+/* Large Devices (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonial_item {
+    max-width: 650px;
+    padding: 35px 25px;
+  }
+
+  .testimonial_item p {
+    font-size: 1.1rem;
+  }
+
+  .testimonial_item h5 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Extra Large Devices (1200px and up) */
+@media (min-width: 1200px) {
+  .testimonial_item {
+    max-width: 700px;
+    padding: 40px 30px;
+  }
+
+  .testimonial_item p {
+    font-size: 1.15rem;
+  }
+
+  .testimonial_item h5 {
+    font-size: 1.15rem;
+  }
+}
