@@ -38,7 +38,7 @@ A **React.js Fast-Food Application** is a web platform that allows users to brow
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/YourUsername/react-fast-food-app.git
+git clone https://github.com/Abhi20052025/React-E-commerce-Project.git
 ````
 
 2. **Navigate into the project directory**
@@ -71,7 +71,7 @@ http://localhost:3000
 
 ## 🔗 GitHub Repository
 
-[React.js Fast-Food Application on GitHub](https://github.com/YourUsername/react-fast-food-app)
+[React.js Fast-Food Application on GitHub](https://github.com/Abhi20052025/React-E-commerce-Project.git)
 
 ---
 
@@ -97,7 +97,7 @@ Contributions are welcome! To contribute:
 ## ⚡ Contact
 
 Created by **Your Name** – [Your Email:- pandeyabhishek1001@gmail.com]
-Check out my other projects at [Your GitHub Profile]()
+Check out my other projects at [Your GitHub Profile](https://github.com/Abhi20052025/React-E-commerce-Project.git)
 
 ```
 
