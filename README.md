@@ -3,7 +3,7 @@
 A **Fast-Food Web Application** built using **React.js** that allows users to browse a food menu, customize their meals, add items to a cart, and place online orders easily. The app focuses on providing a **fast, modern, and responsive** user experience for online food ordering.
 
 🌐 **Local Development URL:** [http://localhost:5173/](http://localhost:5173/)
-📦 **GitHub Repository:** [https://github.com/your-username/fast-food-app](https://github.com/your-username/fast-food-app)
+📦 **GitHub Repository:** [https://github.com/your-username/fast-food-app](https://github.com/Abhi20052025/React-E-commerce-Project.git)
 
 ---
 
@@ -174,7 +174,7 @@ See the [LICENSE](LICENSE) file for more details.
 
 **Abhishek Kumar Pandey**
 📧 [your.email@example.com](mailto:your.pandeyabhishek10001@gmail.com)
-🌐 [GitHub Profile](https://github.com/your-username)
+🌐 [GitHub Profile](https://github.com/Abhi20052025/React-E-commerce-Project.git)
 
 ---
 
